@@ -1,38 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+ * {
+ font-family: 'Benne';
+ }
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Home {
+  position: relative;
+  left: 30%;
+  width: 40%;
+  margin-top: 10%;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 50px;
+  color: #C838CB;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Home h1{
+  text-shadow: 1.5px 1px #111111;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.NavTitle {
+  font-size:80px;
+  margin-top: 5%;
+  color: #0E4097;
+  text-shadow: 2px 1px #111111;
+}
+
+.Links {
+  text-shadow: 1px 1px #111111;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar {
+flex: 1;
+justify-content: center;
+align-items:flex-start;
+flex-direction: row-reverse ;
+margin-bottom: 50px;
+border-style: solid;
+border-color: white;
+border-top-width:0;
+border-left-width:0;
+border-right-width:0;
+border-bottom-width: 1px; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar button {
+  position: relative;
+  right: 250px;
+  bottom: 50px;
 }
+
+.table, th, td{
+  border-style: solid;
+  border-width: 1px;
+  background-color: #383838;
+  color: white;
+  font-size: 30px;
+}
+
+.table td, .table th {
+  border-color: white;
+  border-width: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.table thead th {
+  border-color: white;
+  border-width: 2px;
+}
+.tituloUpdate {
+  font-size:40px;
+  text-shadow: 1px 1px #111111;
+}
+
+.InserirTitle {
+  font-size: 50px;
+  color: #C838CB;
+  text-shadow: 1px 1px #111111;
+}
+
+ .TituloInput {
+  text-shadow: 1px 1px #111111;
+  color: #C838CB;
+  font-size: 30px;
+  margin-top: 30px;
+ }
+
+ .react-select-container {
+   position: relative;
+   left: 250px;
+   width: 250px;
+   padding: 10px;
+   font-size: 20px;
+ }
