@@ -18,8 +18,8 @@ const Home = () => {
       <div className="h3 mt-5">
       </div>
       <div class="react-select-container">
-      <Select placeholder="Selecione a tabela..." options={options} onChange={(e) => setSelected(e.value)}/>
-      </div>     
+      
+      </div>     <Select placeholder="Selecione a tabela..." options={options} onChange={(e) => setSelected(e.value)}/>
       <button className="btn btn-primary mt-5 mb-5 w-25">
       <Link className="Links" to={{pathname: `/${selected}`}}>CONSULTAR</Link>
       </button>   
